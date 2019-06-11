@@ -7,7 +7,7 @@ section h2 {
     padding: 20px;
     padding-top: 1px;
     border-radius: 7px;
-    background-color: gray;
+    background-color: rgb(185, 185, 185);
     margin: 2em;
   }
   
@@ -18,8 +18,5 @@ section h2 {
   
   .counter {
     float: right;
-  }
-
-  .new-tweet form textarea {
-    
+    color: black;
   }
