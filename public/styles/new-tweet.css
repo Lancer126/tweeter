@@ -1,0 +1,21 @@
+section h2 {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+  }
+  
+  section {
+    padding: 20px;
+    padding-top: 1px;
+    border-radius: 7px;
+    background-color: gray;
+    margin: 2em;
+  }
+  
+  textarea {
+    padding-right: 20px;
+    width: 100%;
+  }
+  
+  .counter {
+    float: right;
+  }

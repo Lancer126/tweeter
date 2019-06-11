@@ -1,0 +1,23 @@
+nav {
+  color: #e8fdff;
+  background-color: #00a087;
+  display: flex;
+  flex-wrap: wrap;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  padding-left: 2em;
+  padding-right: 2em;
+  height: 80px;
+  width: 100%; /* Full width */
+}
+
+#nav-bar .logo {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+
+#nav-bar .header {
+  line-height: 250%;
+  font-size: 200%;
+}

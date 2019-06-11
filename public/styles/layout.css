@@ -15,6 +15,7 @@ html {
  */
 
 body {
+  font-family: 'Roboto Condensed', sans-serif;
   margin: 0;
   color: #244751;
   background-color: #eee;
@@ -23,3 +24,16 @@ body {
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+main {
+  position: absolute;
+  margin: auto;
+  margin-top: 80px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 450px;
+  height: 450px;
+  background-color: white;
+  border-radius: 3px;
+}
