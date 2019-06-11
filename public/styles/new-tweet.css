@@ -19,3 +19,7 @@ section h2 {
   .counter {
     float: right;
   }
+
+  .new-tweet form textarea {
+    
+  }
