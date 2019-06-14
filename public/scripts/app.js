@@ -27,8 +27,15 @@ const request = options => {
 function renderTweets(data) {
   $(".tweet-container").empty();
   for (let i = 0; i < data.length; i++) {
-    var tweet = createTweetElement(data[i]);
+    const tweet = createTweetElement(data[i]);
     $(".tweet-container").prepend(tweet);
+
+    tweet.mouseover(function() {
+      tweet.find("footer img").css('opacity', '0.9');
+    });
+    tweet.mouseout(function() {
+      tweet.find("footer img").css('opacity', '0');
+    });
   }
 }
   
@@ -41,9 +48,14 @@ function createTweetElement(tweet) {
 
   let $content = $("<p>").text(tweet.content.text);
 
+  var date = new Date(tweet.created_at).toISOString().slice(0, 10);
   let $footer = $("<footer>").addClass("footer");
-  let $date = $("<h6>").addClass("date").text(tweet.created_at);
-  $footer.append($date);
+  let $date = $("<h6>").text(date);
+  let $like = $("<img>").attr("src", "/images/heart.png").addClass("like");
+  let $comment = $("<img>").attr("src", "/images/comment.png").addClass("comment");
+  let $flag = $("<img>").attr("src", "/images/flag.png").addClass("flag");
+
+  $footer.append($date).prepend($like).prepend($comment).prepend($flag);
 
   let $tweet = $('<article>').addClass('tweet');
   $tweet.append($user).append($content).append($footer);

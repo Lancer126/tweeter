@@ -52,3 +52,7 @@ article:hover {
 h1 {
   color:red;
 }
+
+img {
+  border-radius: 7px;
+}
