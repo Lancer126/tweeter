@@ -1,4 +1,5 @@
 nav {
+  z-index: 3;
   color: #e8fdff;
   background-color: #00a087;
   display: flex;
@@ -20,4 +21,15 @@ nav {
 #nav-bar .header {
   line-height: 250%;
   font-size: 200%;
+}
+
+#nav-bar .compose {
+  margin-top: 9px;
+  margin-left: auto;
+  width: auto;
+  height: 60px;
+}
+
+#nav-bar .compose:hover {
+  border: solid black 1px;
 }

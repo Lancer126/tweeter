@@ -25,15 +25,30 @@ body {
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
 main {
-  position: absolute;
+  position: relative;
   margin: auto;
-  margin-top: 80px;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  padding-top: 2em;
+  top: 80px;
   width: 450px;
-  height: 450px;
+  height: auto;
   background-color: white;
   border-radius: 3px;
+}
+
+article {
+  width: 88%;
+  border: solid gray 1px;
+  opacity: 0.5;
+  margin: auto;
+  border-radius: 7px 7px 7px 7px;
+  margin-bottom: 30px;
+}
+
+article:hover {
+  opacity: 0.9;
+  border: solid black 1px;
+}
+
+h1 {
+  color:red;
 }

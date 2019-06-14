@@ -1,22 +1,89 @@
 section h2 {
-    border-bottom: 1px solid black;
-    padding-bottom: 5px;
-  }
+  margin-top: 0px;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+}
   
-  section {
-    padding: 20px;
-    padding-top: 1px;
-    border-radius: 7px;
-    background-color: rgb(185, 185, 185);
-    margin: 2em;
-  }
+.new-tweet {
+  padding: 20px;
+  border-radius: 7px;
+  background-color: rgb(185, 185, 185);
+  margin: auto;
+  width: 80%;
+  margin-bottom: 2em;
+}
+
+.tweet-container {
+  padding: 20px;
+  padding-top: 0.1px;
+  border-radius: 7px;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+}
+
+.user-info {
+  display: flex;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.user-info h2 {
+  justify-content: left;
+}
+
+section article header {
+  padding: 10px;
+  padding-bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(219, 219, 219);
+  width: 100%;
+  height: auto;
+}
   
-  textarea {
-    padding-right: 20px;
-    width: 100%;
-  }
+textarea {
+  padding-right: 20px;
+  width: 100%;
+}
   
-  .counter {
-    float: right;
-    color: black;
-  }
+.counter {
+  float: right;
+  color: black;
+}
+
+img {
+  border-radius: 7px;
+  height: 50px;
+}
+
+.tweet-container h2 {
+  border-bottom: 0px solid black;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.tweet-container div {
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0;
+  color: #244751;
+}
+
+footer {
+  border-top: gray solid 1px;
+  width: 100%;
+  height: auto;
+  background-color: #eee;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  padding: 1px;
+}
+
+article p {
+  padding: 7px;
+}
+
+footer h6 {
+  display: inline;
+  margin-left: 10px;
+  transform: translateY(-10px);
+}
