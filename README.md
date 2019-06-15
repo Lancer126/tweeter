@@ -11,7 +11,7 @@ This repository is the starter code for the project: Students will fork and clon
 3. Start the web server using the `npm run local` command. The app will be served at <http://localhost:8080/>.
 4. Go to <http://localhost:8080/> in your browser.
 
-## Dependencies
+### Dependencies
 
 - Express
 - Node 5.10.x or above
@@ -19,3 +19,9 @@ This repository is the starter code for the project: Students will fork and clon
 - MD5
 - Body-Parser
 - Chance
+
+#### Screenshots
+
+!["Composing a new tweet"](https://github.com/Lancer126/tweeter/blob/master/docs/compose-new-tweet.png)
+!["Trying to post a tweet that is too long"](https://github.com/Lancer126/tweeter/blob/master/docs/message-too-long.png)
+!["Hovering over a tweet with the mouse to get more info"](https://github.com/Lancer126/tweeter/blob/master/docs/hover-tweet.png)
