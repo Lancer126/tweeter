@@ -22,6 +22,6 @@ This repository is the starter code for the project: Students will fork and clon
 
 ## Screenshots
 
-![Composing a new tweet](https://github.com/Lancer126/tweeter/blob/master/docs/compose-new-tweet.png)
+!["Composing a new tweet"](https://github.com/Lancer126/tweeter/blob/master/docs/compose-new-tweet.png)
 !["Trying to post a tweet that is too long"](https://github.com/Lancer126/tweeter/blob/master/docs/message-too-long.png)
-!["Hovering over a tweet with the mouse to get more info"](https://github.com/Lancer126/tweeter/blob/master/docs/hover-tweet.png)
+!["Hovering over a tweet with the mouse"](https://github.com/Lancer126/tweeter/blob/master/docs/hover-tweet.png)
