@@ -1,9 +1,22 @@
-section h2 {
+/*
+ * Layout for the Compose Tweet title
+ */
+.new-tweet h2 {
   margin-top: 0px;
   border-bottom: 1px solid black;
   padding-bottom: 5px;
 }
+
+/*
+ * Error message color
+ */
+ .new-tweet h1 {
+  color:red;
+}
   
+/*
+ * Layout for the box that creates the new tweets
+ */
 .new-tweet {
   padding: 20px;
   border-radius: 7px;
@@ -13,6 +26,9 @@ section h2 {
   margin-bottom: 2em;
 }
 
+/*
+ * Layout of section containing all the tweets
+ */
 .tweet-container {
   padding: 20px;
   padding-top: 0.1px;
@@ -21,16 +37,9 @@ section h2 {
   margin: auto;
 }
 
-.user-info {
-  display: flex;
-  border-top-left-radius: 7px;
-  border-top-right-radius: 7px;
-}
-
-.user-info h2 {
-  justify-content: left;
-}
-
+/*
+ * Layout of section containing all the user information (image, name and handle)
+ */
 section article header {
   padding: 10px;
   padding-bottom: 10px;
@@ -39,13 +48,22 @@ section article header {
   background-color: rgb(219, 219, 219);
   width: 100%;
   height: auto;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
 }
-  
+
+/*
+ * Layout of text area containing the future content of the tweets
+ */
 textarea {
   padding-right: 20px;
   width: 100%;
 }
-  
+
+
+/*
+ * Layout of character counter
+ */
 .counter {
   float: right;
   color: black;
@@ -56,17 +74,17 @@ textarea {
   height: 50px;
 }
 
+/*
+ * Layout of the tweeter's name
+ */
 .tweet-container h2 {
-  border-bottom: 0px solid black;
-  margin-left: 10px;
+  margin-top: 0px;
+  padding-bottom: 5px;
 }
 
-.tweet-container div {
-  font-family: 'Roboto Condensed', sans-serif;
-  margin: 0;
-  color: #244751;
-}
-
+/*
+ * Layout of section containing the date, like, re-tweet and flag buttons
+ */
 footer {
   border-top: gray solid 1px;
   width: 100%;
@@ -77,21 +95,30 @@ footer {
   padding: 1px;
 }
 
+/*
+ * Layout of the text in a tweet
+ */
 article p {
   overflow-wrap: break-word;
   padding: 7px;
 }
 
+/*
+ * Layout of date
+ */
 footer h6 {
   display: inline;
   margin-left: 10px;
   transform: translateY(-10px);
 }
 
+/*
+ * Customizes the like, re-tweet and flag buttons
+ */
 footer img {
   opacity: 0;
   margin-top: 5px;
-  padding-right: 3px;
+  padding-right: 5px;
   display: block;
   float: right;
   height: 10px;

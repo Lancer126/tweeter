@@ -11,9 +11,8 @@ html {
 }
 
 /*
- * Global layout stuff
+ * Global layout
  */
-
 body {
   font-family: 'Roboto Condensed', sans-serif;
   margin: 0;
@@ -22,7 +21,7 @@ body {
 }
 
 /*
- * Additional CSS can be defined below or in other CSS files, as per instructions
+ * Layout of everything except the nav bar
  */
 main {
   position: relative;
@@ -35,6 +34,9 @@ main {
   border-radius: 3px;
 }
 
+/*
+ * Layout of the tweets
+ */
 article {
   width: 88%;
   border: solid gray 1px;
@@ -44,15 +46,17 @@ article {
   margin-bottom: 30px;
 }
 
+/*
+ * Layout of the tweets when the mouse is over them
+ */
 article:hover {
   opacity: 0.9;
   border: solid black 1px;
 }
 
-h1 {
-  color:red;
-}
-
+/*
+ * Rounds the corners of every image
+ */
 img {
   border-radius: 7px;
 }
